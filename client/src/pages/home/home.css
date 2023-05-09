@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+    /* styles for the iPhone SE screen size (320px wide) */
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    .posts {
+        width: 100%;
+    }
+}
+
+
+
